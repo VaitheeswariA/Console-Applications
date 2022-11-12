@@ -31,7 +31,7 @@ public class StaffProcess {
 	{
 		try {
 			connect=DriverManager.getConnection("jdbc:mysql://localhost:3306/School_db", "root", "@Jjack007");
-			System.out.println("Staff process connected");
+			//System.out.println("Staff process connected");
 		} catch (SQLException e) {
 			
 			e.printStackTrace();
