@@ -21,9 +21,9 @@ public class AdminProcess {
 	{
 		try {
 			connect=DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_db", "root", "@Jjack007");
-			System.out.println("Admin process connected");
+			//System.out.println("Admin process connected");
 		} catch (SQLException e) {
-			System.out.println("Connection is not established");
+			//System.out.println("Connection is not established");
 			e.printStackTrace();
 		}
 	}
