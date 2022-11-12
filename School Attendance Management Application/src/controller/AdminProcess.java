@@ -25,7 +25,7 @@ public class AdminProcess{
 		
 		try {
 			connect=DriverManager.getConnection("jdbc:mysql://localhost:3306/School_db", "root", "@Jjack007");
-			System.out.println("AdminPage connected");
+			//System.out.println("AdminPage connected");
 		} catch (SQLException e) {
 			
 			e.printStackTrace();
