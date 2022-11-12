@@ -20,7 +20,7 @@ public class StudentProcess {
 	{
 		try {
 			connect=DriverManager.getConnection("jdbc:mysql://localhost:3306/School_db", "root", "@Jjack007");
-			System.out.println("Student process connected");
+			//System.out.println("Student process connected");
 		} catch (SQLException e) {
 			
 			e.printStackTrace();
