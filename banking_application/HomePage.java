@@ -5,21 +5,21 @@ public class Start_Banking extends MyProfile{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Start_Banking start=new Start_Banking();
-		start.begin();
+		HomePage homePageObj=new HomePage();
+		homePageObj.begin();
 	}
 	
 	public void begin()
 	{
-		Start_Banking banking_details=new Start_Banking();
+		HomePage banking_details=new HomePage();
 		Account_Holder holder=new Account_Holder();
 		Bank account=new Bank();
 		banking_details.add_account(account);
 		
 		Scanner user_input=new Scanner(System.in);
-		boolean lets_start=true;
+		boolean isStarted=true;
 		
-		while(lets_start)
+		while(isStarted)
 		{
 			System.out.println("**********Welcome to the Most Safest Bank of India application***********");
 			System.out.println("Choose any service to use our banking services......\n1.Create Account \n2.Login \n3.Exit \n");
@@ -103,7 +103,7 @@ public class Start_Banking extends MyProfile{
 			
 			case 3:
 			{
-				lets_start=false;
+				isStarted=false;
 			}
 			break;
 			
